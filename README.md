@@ -1,40 +1,73 @@
-<h1 align="left">Heya! 👋</h1>
+# Hi there 👋, I'm Konrad Nowakowski
 
-###
+**Aspiring Software Engineer | Python (FastAPI) & Java (Spring Boot)**
 
-<p align="left">I'm Konrad, a Computer Science student at the University of Warmia and Mazury in Olsztyn, passionate about everything related to computers!</p>
+I am a software engineering student focused on building scalable backend systems, resilient crawlers, and secure microservices.
 
-###
+---
 
-<h2 align="left">The Tech I used</h2>
+### 🚀 About Me
+* 🎓 Currently studying **Computer Science** (Engineer's Degree) at the University of Warmia and Mazury in Olsztyn, Poland.
+* ⚙️ I specialize in backend development using **Python (FastAPI)** and **Java (Spring Boot)**.
+* 🧠 Passionate about designing **RAG pipelines**, developing asynchronous applications, and architecting data ingestion engines.
+* 🕵️‍♂️ Board member of the **Czarna Magia AI Society**.
+* 🤝 Co-organizer of the **CAIAK Scientific Conference**.
 
-###
+---
 
-<div align="left">
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" height="40" alt="javascript logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rust/rust-original.svg" height="40" alt="rust logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" height="40" alt="cplusplus logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vuejs/vuejs-original.svg" height="40" alt="vuejs logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" height="40" alt="python logo"  />
-</div>
+### 💻 Tech Stack
 
-###
+**Languages**
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
+![SQL](https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=postgresql&logoColor=white)
 
-<!--
-**NowakowskiKonrad/NowakowskiKonrad** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+**Frameworks & Libraries**
+![FastAPI](https://img.shields.io/badge/FastAPI-005571?style=for-the-badge&logo=fastapi)
+![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=for-the-badge&logo=spring-boot&logoColor=white)
+![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white)
+![Playwright](https://img.shields.io/badge/Playwright-2EAD33?style=for-the-badge&logo=playwright&logoColor=white)
+![Pydantic](https://img.shields.io/badge/Pydantic-E92063?style=for-the-badge&logo=pydantic&logoColor=white)
 
-Here are some ideas to get you started:
+**Databases**
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
+![Redis](https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white)
+![Qdrant](https://img.shields.io/badge/Qdrant-EF3951?style=for-the-badge&logo=qdrant&logoColor=white)
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+**Infrastructure & Tools**
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+
+---
+
+### 🛠️ Featured Projects
+
+#### 🔍 Wyrocznia | *RAG-based Q&A System*
+* **Tech:** FastAPI, Redis, Qdrant, Docker, LangChain
+* Developed an asynchronous FastAPI backend for a RAG system, managing short-term memory with Redis pipelines.
+* Containerized a multi-service architecture using Docker Compose with custom networks and volume persistence.
+* Refactored data ingestion pipelines utilizing LangChain's Markdown text splitters for robust chunking.
+
+#### 🕷️ Wyrocznia Scraper | *Data Ingestion Engine*
+* **Tech:** Python, Playwright, Asyncio
+* Engineered a heuristic crawler that defaults to lightweight `httpx` and dynamically escalates to Playwright for SPAs.
+* Optimized performance by intercepting and aborting heavy network routes (media, fonts) to reduce CPU/memory overhead.
+* Built a domain-restricted architecture with `asyncio` queues, `aiolimiter`, and exponential backoff retries.
+
+#### 🛒 E-Commerce Backend | *RESTful API*
+* **Tech:** Java, Spring Boot, PostgreSQL, Flyway
+* Built a RESTful API with a 3-tier architecture, strict DTO mapping, and robust error handling (`@RestControllerAdvice`).
+* Architected secure database schemas utilizing a dual-ID pattern (internal BIGINTs, public UUIDs) to prevent IDOR attacks.
+* Ensured data consistency with `@Transactional` boundaries and Flyway migrations.
+
+#### 🗣️ Skryba | *LLM/TTS Prototyping*
+* **Tech:** Python, Streamlit, Vue.js, Docker
+* Spearheaded frontend architecture by migrating UI to Streamlit to accelerate rapid prototyping with Python-native LLM pipelines.
+* Standardized deployment and eliminated cross-platform conflicts via Docker containerization.
+
+---
+
+### 📫 Connect with me
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/konrad-nowakowski-it)
+[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:kaneo@pm.me)
