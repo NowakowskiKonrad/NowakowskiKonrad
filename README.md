@@ -43,25 +43,25 @@ I am a software engineering student focused on building scalable backend systems
 
 ### 🛠️ Featured Projects
 
-#### 🔍 Wyrocznia | *RAG-based Q&A System*
+#### 🔍 Wyrocznia | *RAG-based Q&A System* | Student Club Project
 * **Tech:** FastAPI, Redis, Qdrant, Docker, LangChain
 * Developed an asynchronous FastAPI backend for a RAG system, managing short-term memory with Redis pipelines.
 * Containerized a multi-service architecture using Docker Compose with custom networks and volume persistence.
 * Refactored data ingestion pipelines utilizing LangChain's Markdown text splitters for robust chunking.
 
-#### 🕷️ Wyrocznia Scraper | *Data Ingestion Engine*
+#### 🕷️ Wyrocznia Scraper | *Data Ingestion Engine* | Student Club Project
 * **Tech:** Python, Playwright, Asyncio
 * Engineered a heuristic crawler that defaults to lightweight `httpx` and dynamically escalates to Playwright for SPAs.
 * Optimized performance by intercepting and aborting heavy network routes (media, fonts) to reduce CPU/memory overhead.
 * Built a domain-restricted architecture with `asyncio` queues, `aiolimiter`, and exponential backoff retries.
 
-#### 🛒 E-Commerce Backend | *RESTful API*
+#### 🛒 E-Commerce Backend | *RESTful API* | Student Club Project
 * **Tech:** Java, Spring Boot, PostgreSQL, Flyway
 * Built a RESTful API with a 3-tier architecture, strict DTO mapping, and robust error handling (`@RestControllerAdvice`).
 * Architected secure database schemas utilizing a dual-ID pattern (internal BIGINTs, public UUIDs) to prevent IDOR attacks.
 * Ensured data consistency with `@Transactional` boundaries and Flyway migrations.
 
-#### 🗣️ Skryba | *LLM/TTS Prototyping*
+#### 🗣️ Skryba | *LLM/TTS Prototyping* | Private Project
 * **Tech:** Python, Streamlit, Vue.js, Docker
 * Spearheaded frontend architecture by migrating UI to Streamlit to accelerate rapid prototyping with Python-native LLM pipelines.
 * Standardized deployment and eliminated cross-platform conflicts via Docker containerization.
